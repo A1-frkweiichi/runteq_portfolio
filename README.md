@@ -5,20 +5,95 @@ application up and running.
 
 Things you may want to cover:
 
-* Ruby version
+- Ruby version
 
-* System dependencies
+- System dependencies
 
-* Configuration
+- Configuration
 
-* Database creation
+- Database creation
 
-* Database initialization
+- Database initialization
 
-* How to run the test suite
+- How to run the test suite
 
-* Services (job queues, cache servers, search engines, etc.)
+- Services (job queues, cache servers, search engines, etc.)
 
-* Deployment instructions
+- Deployment instructions
 
-* ...
+- .....
+
+■ サービス概要
+
+生徒の成長を見える化して
+
+トレーナーの売上・リピートにも貢献する
+
+予約アプリ
+
+■ メインのターゲットユーザー
+
+フリーランスの運動指導者（ヨガ、ピラティス、パーソナルなど）
+
+その生徒
+
+■ ユーザーが抱える課題
+
+生徒のリピートを得るために継続してもらうのが理想的。
+
+しかし、リピートを得られない要因として
+
+- 効果を実感できない
+- 改善しているが、停滞期に入ってしまった
+- 始めた頃との差異を忘れてしまった
+- 忙しくなって、優先順位が下がった
+
+などが挙げられる。
+
+そのため、効果を多角的に見える化する機能を搭載する。
+
+（結果、リピート・売上に貢献することを狙う。）
+
+■ 解決方法
+
+生徒のマイページに変化の推移をわかりやすくするように記録できる。
+
+- 写真
+- （動画）
+- 体重推移（折れ線グラフ）
+- **他に何かないかインタビューで確認する**
+
+■ 実装予定の機能（以下の例は実際のアプリの機能から一部省略しています）
+
+《講師ユーザー》
+
+- レッスン枠を登録（複製）
+
+→ 定員制限、予約可能時間の足切り
+
+- 決済機能**（ストライプ？PayPay？銀行口座載せるだけ？逆に面倒かも or 搭載しない）要リサーチ**
+- 生徒ユーザーのマイページに写真などアップロードできる**（削除もできていのか）**
+
+《生徒ユーザー》
+
+- レッスン枠を予約
+- 決済機能
+- マイページ編集機能
+
+■ なぜこのサービスを作りたいのか？
+
+自身がピラティス部門社員 200 人の中で契約率 1 位だったから。
+
+運動指導の専門家たちにとって、営業・契約はとても大切なパートであるが専門外で苦手とする人が多かったから。
+
+■ スケジュール
+
+企画〜技術調査：2/7 〆切
+
+README〜ER 図作成：2/10 〆切
+
+メイン機能実装：2/10 - 3/15
+
+β 版を RUNTEQ 内リリース（MVP）：3/15 〆切
+
+本番リリース：3 月末
