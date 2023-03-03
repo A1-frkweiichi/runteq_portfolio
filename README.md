@@ -72,3 +72,6 @@ README〜ER 図作成：〜3/7
 メイン機能実装：〜3/31
 β 版を RUNTEQ 内リリース（MVP）：〜4/7
 本番リリース：〜4/15
+
+■ 画面遷移図
+https://www.figma.com/file/AqBv01Dl4x37edQtdlpTR2/CREDO-QUEST?node-id=0%3A1&t=cMYdjAvrS3BGYooU-1
